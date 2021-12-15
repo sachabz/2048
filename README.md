@@ -16,6 +16,6 @@
 ## Versionnement
 Version 1
 
-## Auteurs
+## Auteur
 Sacha Blin Zwertvaegher,
 Student of the Coding academy by Epitech
