@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rush 2048</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Title">
+        <h1>2048</h1>
+    </div>
+    <div class="endgame"></div>
+    <div class="Win"></div>
+    <div class="Score"></div>
+    <div class="conteneur">
+        <button onclick="location.reload();">New Game</button>
+    </div>
+    <div class="Games">
+        <!-- le 2048 sera inséré ici -->
+    </div>
+    <div class="Instruction">
+        <p>
+            How to play : <br>Use your arrow to move the cell. When two cells are equals, they merge into one.<br> Try
+            to get
+            the number 2048 !
+        </p>
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="Base2048.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.Games').game2048(); // appel de la fonction 'game2048' du pluggin appliquée à la div de class 'Games'
+        });
+    </script>
+</body>
+
+</html>
