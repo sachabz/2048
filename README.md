@@ -8,7 +8,7 @@
 
 ## Langages
 - CSS3, HTML5, 
-- js, jquiery
+- js, jquery
 
 ## Fonctionnalités
 - Responsive
