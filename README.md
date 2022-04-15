@@ -1,4 +1,5 @@
 # 2048
+[Demo](https://sachabz.github.io/2048/)
 
 ## About 2048
 2048 is a web project created in on day for a school project
