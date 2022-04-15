@@ -17,5 +17,5 @@
 Version 1
 
 ## Auteur
-Sacha Blin Zwertvaegher,
+Sacha Blin Zwertvaegher
 Student of the Coding academy by Epitech
